@@ -1,5 +1,5 @@
 import React from "react";
-import videogames from "../assets/portfolio/videogames.png"; 
+import videogames from "../assets/portfolio/videogames.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -23,7 +23,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src}) => (
+          {portfolios.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -32,7 +32,10 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href="https://github.com/Pablo333333/PI-Videogames-main">Code </a>
+                  <a href= "https://pi-videogames-pablo.vercel.app/">Demo </a>
+                </button>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <a href= "https://github.com/Pablo333333/PI-Videogames-main">Code </a>
                 </button>
               </div>
             </div>
