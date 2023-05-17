@@ -1,10 +1,9 @@
 import React from "react";
-
+import net from "../assets/NET.png"
 import nodeJs from "../assets/nodejs.png";
 import typescript from "../assets/typescript.png";
 import postgreSQL from "../assets/postgreSQL.png";
 import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
 const Experience = () => {
@@ -41,9 +40,9 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: net,
+      title: ".NET",
+      style: "shadow-violet-400",
     },
   ];
 

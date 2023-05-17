@@ -1,6 +1,7 @@
 import React from "react";
 import videogames from "../assets/portfolio/videogames.png";
-import hangman from "../assets/portfolio/hangman.png"
+import hangman from "../assets/portfolio/hangman.png";
+import rockPaperScissors from "../assets/portfolio/rockPaperScissors.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,6 +16,12 @@ const Portfolio = () => {
       src: hangman,
       link: "https://hangman-pablo.vercel.app/",
       code: "https://github.com/Pablo333333/Hangman",
+    },
+    {
+      id: 3,
+      src: rockPaperScissors,
+      link: "https://rock-paper-or-scissors-pablo.vercel.app/",
+      code: "https://github.com/Pablo333333/rock-paper-or-scissors",
     },
   ];
 
